@@ -1,0 +1,19 @@
+.sideoption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  transition: color 0.2s ease-out, background 0.2s ease-out;
+  border-radius: 30px;
+}
+
+.sideoption .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+.sideoption:hover {
+  color: var(--twitter-clr);
+  background-color: var(--twitter-bg-hover);
+}
+.sideoption__active {
+  color: var(--twitter-clr);
+}

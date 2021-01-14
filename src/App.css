@@ -1,0 +1,13 @@
+body {
+  --twitter-clr: #1da1f2;
+  --twitter-bg: #f7f9fa;
+  --twitter-bg-hover: #e8f5fe;
+}
+.app {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+  height: 100vh;
+  background-color: white;
+}
